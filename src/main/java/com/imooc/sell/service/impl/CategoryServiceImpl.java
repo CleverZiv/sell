@@ -20,6 +20,6 @@ public class CategoryServiceImpl implements CategoryService {
     private ProductCategoryMapper productCategoryMapper;
     @Override
     public List<ProductCategory> findByCategoryTypeIn(List<Integer> categoryTypeList) {
-        return null;
+        return productCategoryMapper.findByCategoryTypeIn(categoryTypeList);
     }
 }

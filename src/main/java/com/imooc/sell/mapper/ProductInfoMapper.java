@@ -5,19 +5,12 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * @Classname ProductInfoMapperX
+ * @Date 2019/11/16 18:44
+ * @Autor lengzefu
+ */
 @Repository
 public interface ProductInfoMapper {
-    int deleteByPrimaryKey(String productId);
-
-    int insert(ProductInfo record);
-
-    int insertSelective(ProductInfo record);
-
-    ProductInfo selectByPrimaryKey(String productId);
-
-    int updateByPrimaryKeySelective(ProductInfo record);
-
-    int updateByPrimaryKey(ProductInfo record);
-
     List<ProductInfo> selectByProductStatus(Integer productStatus);
 }

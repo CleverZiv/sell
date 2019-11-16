@@ -1,6 +1,7 @@
 package com.imooc.sell.VO;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
 
 import java.math.BigDecimal;
 
@@ -9,6 +10,7 @@ import java.math.BigDecimal;
  * @Date 2019/11/16 17:46
  * @Autor lengzefu
  */
+@Data
 public class ProductInfoVO {
 
     @JsonProperty("id")

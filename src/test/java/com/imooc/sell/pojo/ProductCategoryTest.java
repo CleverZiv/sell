@@ -21,10 +21,5 @@ public class ProductCategoryTest {
     @Autowired
     private ProductCategoryMapper productCategoryMapper;
 
-    @Test
-    public void selectTest() {
-        ProductCategory productCategory = productCategoryMapper.selectByPrimaryKey(1);
-        System.out.println(productCategory.toString());
-    }
 
 }

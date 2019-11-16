@@ -1,17 +1,9 @@
 package com.imooc.sell.mapper;
 
-import com.imooc.sell.pojo.OrderMaster;
-
+/**
+ * @Classname OrderMasterMapper
+ * @Date 2019/11/16 18:44
+ * @Autor lengzefu
+ */
 public interface OrderMasterMapper {
-    int deleteByPrimaryKey(String orderId);
-
-    int insert(OrderMaster record);
-
-    int insertSelective(OrderMaster record);
-
-    OrderMaster selectByPrimaryKey(String orderId);
-
-    int updateByPrimaryKeySelective(OrderMaster record);
-
-    int updateByPrimaryKey(OrderMaster record);
 }

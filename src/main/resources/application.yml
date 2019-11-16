@@ -41,7 +41,7 @@ spring:
 mybatis:
     mapper-locations: classpath:mappers/*.xml
     # 全局的映射，不用在xml文件写实体类的全路径
-    type-aliases-package: com.happy.video.pojo
+    type-aliases-package: com.imooc.sell.pojo
     configuration:
         # 开启驼峰映射
         map-underscore-to-camel-case: true

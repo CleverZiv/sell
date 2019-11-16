@@ -1,17 +1,9 @@
 package com.imooc.sell.mapper;
 
-import com.imooc.sell.pojo.OrderDetail;
-
+/**
+ * @Classname OrderDetailMapper
+ * @Date 2019/11/16 18:43
+ * @Autor lengzefu
+ */
 public interface OrderDetailMapper {
-    int deleteByPrimaryKey(String detailId);
-
-    int insert(OrderDetail record);
-
-    int insertSelective(OrderDetail record);
-
-    OrderDetail selectByPrimaryKey(String detailId);
-
-    int updateByPrimaryKeySelective(OrderDetail record);
-
-    int updateByPrimaryKey(OrderDetail record);
 }
